@@ -1,13 +1,10 @@
 # TCN vs ANFIS under Concept Drift — Reproducibility Package
 
-Reproducibility code and corrected results for the MSc thesis *Comparing
+Reproducibility code and results for the MSc thesis *Comparing
 Temporal Convolutional Networks and ANFIS under Concept Drift in Cryptocurrency
 Volatility Forecasting: A Leakage-Free Walk-Forward Evaluation Framework*.
 
-This repository contains **only the final, corrected state** of the project.
-Obsolete prototypes, superseded pipelines, and the earlier overlap-inflated
-results have been deliberately excluded so that every script and every output
-here corresponds to a claim in the final manuscript.
+This repository contains the final state of the project.
 
 ## Start
 
