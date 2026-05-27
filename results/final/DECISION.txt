@@ -1,0 +1,30 @@
+========================================================================
+DECISION  --  what survives the three corrections (real numbers)
+========================================================================
+
+(1) THRESHOLD FAIRNESS
+    AUC (ranking)                    TCN=+0.681 ANFIS=+0.641 d=+0.45 p=9.7e-09
+    MCC@0.5 (naive)                  TCN=+0.247 ANFIS=+0.014 d=+1.64 p=4.2e-36
+    MCC@oracle (ceiling)             TCN=+0.314 ANFIS=+0.266 d=+0.45 p=1.7e-08
+    MCC@heldout-Youden (honest)      TCN=+0.236 ANFIS=+0.189 d=+0.35 p=2.2e-06
+    MCC@heldout-base (honest)        TCN=+0.251 ANFIS=+0.202 d=+0.37 p=9.4e-07
+
+    READING:
+      - Ranking (AUC): TCN higher.
+      - Under an HONEST held-out threshold the TCN STILL leads (d=+0.35):
+        the advantage is NOT merely the 0.5 cut. This is the strong outcome.
+
+(2) WINDOW-OVERLAP INFERENCE
+    AUC                    naive p=9.7e-09 (n=213) | non-overlap p=9.0e-03 (n=36) | Nadeau-Bengio p=5.0e-01
+    MCC@0.5                naive p=4.2e-36 (n=213) | non-overlap p=2.9e-11 (n=36) | Nadeau-Bengio p=1.6e-02
+    MCC@heldout-Youden     naive p=2.2e-06 (n=213) | non-overlap p=2.6e-02 (n=36) | Nadeau-Bengio p=6.1e-01
+
+    READING: an effect that stays significant in the non-overlap and
+    Nadeau-Bengio columns cannot be attacked as window-overlap inflation.
+
+(3) CLASSICAL BASELINES (hourly path only)
+    tcn    AUC=0.681  MCC@heldout-Youden=+0.236
+    anfis  AUC=0.641  MCC@heldout-Youden=+0.189
+    har    AUC=0.555  MCC@heldout-Youden=+0.063
+    garch  AUC=0.616  MCC@heldout-Youden=+0.136
+    READING: if TCN's honest MCC exceeds HAR/GARCH, the econometric bar is cleared.

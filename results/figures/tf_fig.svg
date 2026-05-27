@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="290" viewBox="0 0 680 290" font-family="Helvetica,Arial,sans-serif">
+<rect width="680" height="290" fill="white"/>
+<text x="40" y="24" font-size="14" font-weight="bold" fill="#1F4E5F">Threshold-fair and overlap-aware evaluation</text>
+<rect x="240" y="36" width="200" height="42" rx="8" fill="#F1EFE8" stroke="#5F5E5A"/><text x="340" y="55" font-size="12.5" font-weight="bold" fill="#2C2C2A" text-anchor="middle">Per-window probabilities</text><text x="340" y="71" font-size="10.5" fill="#5F5E5A" text-anchor="middle">TCN, ANFIS, HAR, GARCH</text>
+<text x="40" y="106" font-size="12" font-weight="bold" fill="#0F6E56">Threshold fairness</text>
+<rect x="40" y="116" width="180" height="46" rx="8" fill="#E1F5EE" stroke="#0F6E56"/><text x="130" y="135" font-size="12" font-weight="bold" fill="#085041" text-anchor="middle">AUC</text><text x="130" y="151" font-size="10.5" fill="#0F6E56" text-anchor="middle">ranking, threshold-free</text>
+<rect x="250" y="116" width="180" height="46" rx="8" fill="#E6F1FB" stroke="#185FA5"/><text x="340" y="135" font-size="12" font-weight="bold" fill="#0C447C" text-anchor="middle">MCC oracle</text><text x="340" y="151" font-size="10.5" fill="#185FA5" text-anchor="middle">capability ceiling</text>
+<rect x="460" y="116" width="180" height="46" rx="8" fill="#EEEDFE" stroke="#534AB7"/><text x="550" y="135" font-size="12" font-weight="bold" fill="#3C3489" text-anchor="middle">MCC held-out</text><text x="550" y="151" font-size="10.5" fill="#534AB7" text-anchor="middle">honest deployable</text>
+<text x="40" y="196" font-size="12" font-weight="bold" fill="#993C1D">Overlap-aware significance</text>
+<rect x="40" y="206" width="180" height="46" rx="8" fill="#F1EFE8" stroke="#5F5E5A"/><text x="130" y="225" font-size="12" font-weight="bold" fill="#2C2C2A" text-anchor="middle">Naive</text><text x="130" y="241" font-size="10.5" fill="#5F5E5A" text-anchor="middle">all windows</text>
+<rect x="250" y="206" width="180" height="46" rx="8" fill="#FAEEDA" stroke="#854F0B"/><text x="340" y="225" font-size="12" font-weight="bold" fill="#633806" text-anchor="middle">Non-overlapping</text><text x="340" y="241" font-size="10.5" fill="#854F0B" text-anchor="middle">independent subset</text>
+<rect x="460" y="206" width="180" height="46" rx="8" fill="#FAECE7" stroke="#993C1D"/><text x="550" y="225" font-size="12" font-weight="bold" fill="#712B13" text-anchor="middle">Nadeau-Bengio</text><text x="550" y="241" font-size="10.5" fill="#993C1D" text-anchor="middle">variance corrected</text>
+</svg>

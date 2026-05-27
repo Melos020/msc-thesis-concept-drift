@@ -1,0 +1,5 @@
+model,transition,n,auc_post_mean,mcc_post_mean,DR_mean,dsi_post_mean
+tcn,same_regime,39,0.7082,0.2952,-0.0416,0.5989
+tcn,regime_shift,32,0.6852,0.2456,0.0449,0.639
+anfis,same_regime,39,0.6778,0.0111,-0.2323,0.8615
+anfis,regime_shift,32,0.6599,0.0334,-0.1776,0.8377

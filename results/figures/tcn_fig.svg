@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="320" viewBox="0 0 680 320" font-family="Helvetica,Arial,sans-serif">
+<rect width="680" height="320" fill="white"/>
+<text x="40" y="28" font-size="14" font-weight="bold" fill="#1F4E5F">TCN: dilated causal convolutions, 3 residual blocks (dilations 1/2/4)</text>
+<text x="40" y="300" font-size="12" fill="#444">Input: 24 hourly bars of OHLCV-derived features  -  receptive field 1+(k-1)(2^L-1) bars</text>
+<circle cx="560" cy="60" r="9" fill="#F0997B" stroke="#993C1D"/>
+<text x="560" y="46" font-size="11" fill="#993C1D" text-anchor="middle">P(regime)</text>
+<text x="120" y="98" font-size="12" fill="#185FA5">Block 3 - dilation 4</text>
+<text x="120" y="168" font-size="12" fill="#185FA5">Block 2 - dilation 2</text>
+<text x="120" y="238" font-size="12" fill="#185FA5">Block 1 - dilation 1</text>
+<g stroke="#85B7EB" stroke-width="1" opacity="0.55"><line x1="560" y1="69" x2="560" y2="135"/><line x1="560" y1="69" x2="440" y2="135"/><line x1="560" y1="69" x2="320" y2="135"/></g>
+<g stroke="#378ADD" stroke-width="1" opacity="0.6"><line x1="560" y1="145" x2="560" y2="205"/><line x1="560" y1="145" x2="500" y2="205"/><line x1="560" y1="145" x2="440" y2="205"/><line x1="440" y1="145" x2="380" y2="205"/><line x1="320" y1="145" x2="260" y2="205"/></g>
+<g stroke="#185FA5" stroke-width="1" opacity="0.7"><line x1="560" y1="215" x2="560" y2="280"/><line x1="560" y1="215" x2="530" y2="280"/><line x1="440" y1="215" x2="410" y2="280"/><line x1="320" y1="215" x2="290" y2="280"/><line x1="260" y1="215" x2="230" y2="280"/></g>
+<g fill="#85B7EB"><circle cx="260" cy="140" r="5"/><circle cx="320" cy="140" r="5"/><circle cx="380" cy="140" r="5"/><circle cx="440" cy="140" r="5"/><circle cx="500" cy="140" r="5"/><circle cx="560" cy="140" r="5"/></g>
+<g fill="#378ADD"><circle cx="230" cy="210" r="5"/><circle cx="260" cy="210" r="5"/><circle cx="290" cy="210" r="5"/><circle cx="320" cy="210" r="5"/><circle cx="380" cy="210" r="5"/><circle cx="410" cy="210" r="5"/><circle cx="440" cy="210" r="5"/><circle cx="500" cy="210" r="5"/><circle cx="530" cy="210" r="5"/><circle cx="560" cy="210" r="5"/></g>
+<g fill="#185FA5"><circle cx="230" cy="285" r="4"/><circle cx="260" cy="285" r="4"/><circle cx="290" cy="285" r="4"/><circle cx="320" cy="285" r="4"/><circle cx="350" cy="285" r="4"/><circle cx="380" cy="285" r="4"/><circle cx="410" cy="285" r="4"/><circle cx="440" cy="285" r="4"/><circle cx="470" cy="285" r="4"/><circle cx="500" cy="285" r="4"/><circle cx="530" cy="285" r="4"/><circle cx="560" cy="285" r="4"/></g>
+</svg>
